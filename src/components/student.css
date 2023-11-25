@@ -1,0 +1,42 @@
+a{
+    color: red;
+}
+
+
+.search-box{
+    width: 300px;
+    position: relative;
+    border: 2px solid var(--bg-300);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.search-box button{
+    position: absolute;
+    left: 0;
+    font-size: 1.4em;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.search-box input{
+    all: unset;
+    width: 100%;
+    text-align: right;
+    padding: 5px 10px;
+    color: white;
+}
+
+.filter{
+    all: unset;
+    font-size: 30px;
+    color: var(--primary-100);
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}

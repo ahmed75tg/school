@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&display=swap');
+
+:root{
+  --primary-100:#FF6600;
+  --primary-200:#ff983f;
+  --primary-300:#ffffa1;
+  --accent-100:#F5F5F5;
+  --accent-200:#929292;
+  --text-100:#FFFFFF;
+  --text-200:#e0e0e0;
+  --bg-100:#1D1F21;
+  --bg-200:#2c2e30;
+  --bg-300:#444648;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bg-100);
+  font-family: 'Cairo', sans-serif;
 }

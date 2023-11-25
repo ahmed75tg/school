@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px 40px;
+}
+
+select{
+    background-color: var(--bg-100);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    border-radius: 5px;
+}
+
+label{
+    color: white;
+}
+
+.name{
+    color: white !important;
+}

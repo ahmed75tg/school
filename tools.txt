@@ -1,0 +1,14 @@
+ {
+          students.map((student)=>(
+            <div className="student" key={student.id}>
+              <h1>{student.names}</h1>
+              <h1>{student.emails}</h1>
+              <h1>{student.phones}</h1>
+              <h1>{student.docs}</h1>
+              <h1>{student.dates}</h1>
+              <h1>{student.births}</h1>
+              <h1>{student.genders}</h1>
+              <h1>{student.phases}</h1>
+            </div>
+          ))
+        }

@@ -1,0 +1,136 @@
+.App{
+    width: 100%;
+    text-align: center;
+  }
+  
+  header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    padding-bottom: 10px !important;
+  }
+  
+  header a{
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+  }
+  
+  header button{
+    background-color: var(--primary-100);
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 1.5em;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px 40px;
+    /* table-layout:inherit; */
+  }
+  
+  table tr:nth-child(1){
+    /* margin-bottom: 20px; */
+    border-bottom: 2px solid var(--bg-300);
+    border-top: 1px solid var(--bg-300);
+  }
+  
+  th{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    border-left: 1px solid var(--bg-300);
+    padding: 10px 0;
+  }
+  
+  th:last-child,
+  td:last-child {
+    border-left: none;
+  }
+  
+  td{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+    border-left: 1px solid var(--bg-300);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--bg-300);
+  }
+
+  td:first-child{
+    position: relative;
+  }
+  
+  form{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    padding: 10px 20px;
+    /* background-color: var(--bg-300); */
+    margin-bottom: 20px;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    background-color: var(--bg-200);
+    width: 500px;
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+  
+  .buttons{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .inputs{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+  
+  form input{
+    all: unset;
+    background-color: var(--bg-100);
+    padding: 10px 5px;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    border-radius: 3px;
+  }
+  
+  form button{
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: var(--primary-100);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  
+  .active{
+    display: flex !important;
+  }
+  
+  .not-active{
+    display: none !important;
+  }
+
+  .delete-item{
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 20%;
+  }
